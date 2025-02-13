@@ -8,7 +8,7 @@ import { FooterComponent } from '../../../shared/components/footer/footer.compon
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent, CommonModule, HeaderComponent, FooterComponent],
+  imports: [NavbarComponent, CommonModule, HeaderComponent, FooterComponent ],
   templateUrl: './home.component.html'
 })
 export class HomeComponent {
